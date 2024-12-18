@@ -2,7 +2,7 @@
 
 .inner {
   width: 1100px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 /* header */
@@ -34,124 +34,120 @@ header ul {
 /* トップの部分 */
 .keyvisual {
   background-image: url(../img/keyvisual/keyvisual.jpg);
-  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
   width: 100%;
-  height: 935px;
-}
-.keyvisual-inner {
-  position: relative;
-}
-.text {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  white-space: nowrap;
-  margin: 400px auto;
+  padding-top: 400px;
+  padding-bottom: 400px;
+  text-align: center;
 }
 .text1 {
   font-size: 65px;
   font-weight: 700;
   color: #6ba7eb;
-  margin-bottom: 30px;
 }
 .text2 {
   font-size: 40px;
   font-weight: 700;
-  color: #ffffff;
+  color: #fff;
+  padding-top: 30px;
 }
 
 /* WORKの部分 */
 .work {
-  width: 100%;
+  padding-top: 50px;
+  display: flex;
   background-color: #e3f2fd;
 }
 .work-inner {
   display: flex;
-  justify-content: center;
 }
 .pc-container {
-  width: 440px;
+  flex-basis: 40%;
+  text-align: center;
 }
 .pc {
   width: 250px;
-  margin-top: 50px;
 }
 .text-content {
-  width: 660px;
+  flex-basis: 60%;
   text-align: center;
 }
 .work-title {
   font-size: 40px;
   letter-spacing: 10px;
-  margin-top: 70px;
-  margin-bottom: 35px;
+  padding-top: 20px;
+  padding-bottom: 0px;
 }
 .work-text {
   font-size: 15px;
   line-height: 18px;
   word-break: break-all;
+  margin-top: 35px;
 }
 
 /* WE ARE SKILLSの部分 */
 .skills {
-  background-color: #fff;
-}
-.skills-inner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 50px;
+  padding-bottom: 70px;
 }
 .skills-title {
   font-size: 40px;
   letter-spacing: 10px;
-  margin: 50px 0;
+  text-align: center;
+  margin-bottom: 50px;
 }
 .skills-container {
-  margin-bottom: 70px;
   display: grid;
-  grid-template-columns: repeat(3,300px);
-  grid-auto-rows: 300px;
-  gap: 100px;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
 }
-.skill {
-  position: relative;
-}
-.skill-img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+.skills-container img {
+  width: 300px;
+  height: 300px;
   opacity: 0.7;
+  transition: 0.7;
+  margin: 50px;
 }
-.skill-img:hover {
+.skills-container img:hover {
   opacity: 1;
 }
 
+.skills-container li:nth-child(-n+3) img{
+  margin-top: 0;
+}
+
+.skills-container li:nth-child(3n) img{
+  margin-right: 0;
+}
+
+.skills-container li:nth-child(3n+1) img{
+  margin-left: 0;
+}
+
+.skills-container li:last-child img{
+  margin-right: 0;
+}
+
+.skills-container li:nth-last-child(-n+3) img{
+  margin-bottom: 0;
+}
+
+
 /* SELECT PLANの部分 */
 .plan {
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #d0dfea;
 }
-.plan-inner {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
 .plan-title {
-  display: inline-block;
-  margin: 50px 0;
   font-size: 40px;
   letter-spacing: 10px;
-}
-.table-container {
-  width: 1100px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 .plan-table {
   table-layout: fixed;
-  margin-bottom: 50px;
+  margin: 0 auto;
   width: 100%;
 }
 .plan-table tr {
