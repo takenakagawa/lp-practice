@@ -4,46 +4,152 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Responsive</title>
+  <title>Document</title>
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/base.css">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
 </head>
 
 <body>
-  <h2 class="question--title">Q7 サイズ変更</h2>
-  <div class="box-size"></div>
-  <h2 class="question--title">Q2 色変更</h2>
-  <div class="box1 box-color"></div>
-  <h2 class="question--title">Q3 margin値の変更</h2>
-  <div class="box-margin">
-    <div class="box2 bluebox3"></div>
-    <div class="box2 greenbox3"></div>
-  </div>
-  <h2 class="question--title">Q4 floatの解除</h2>
-  <div class="box-float clearfix">
-    <div class="box2 redbox4"></div>
-    <div class="box2 bluebox4"></div>
-  </div>
-  <h2 class="question--title">Q5 flexboxの入れ替え(逆順)</h2>
-  <div class="box-flex">
-    <div class="box2 redbox5"></div>
-    <div class="box2 bluebox5"></div>
-    <div class="box2 orangebox5"></div>
-  </div>
-  <h2 class="question--title">Q6 flexboxの入れ替え(指定)</h2>
-  <div class="box-flex2">
-    <div class="box2 greenbox6"></div>
-    <div class="box2 yellowbox6"></div>
-    <div class="box2 purplebox6"></div>
-  </div>
-  <h2 class="question--title">Q7 要素の表示・非表示</h2>
-  <div class="box-display">
-    <div class="box2 redbox7"></div>
-    <div class="box2 bluebox7"></div>
-    <div class="box2 greenbox7"></div>
-  </div>
+  <header class="header">
+    <div class="inner">
+      <ul>
+        <li class="fas fa-archway fa-3x"><a href="#"></a></li>
+        <li class="contact-btn"><a href="#"><span class="btn-line"></span></a>contact</li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- トップの部分 -->
+  <main>
+    <section class="keyvisual">
+      <div class="inner">
+        <h1 class="text1">WEB PRODUCTION COMPANY</h1>
+        <h2 class="text2">DIRECTION,CONTENT,MARKETING</h2>
+      </div>
+    </section>
+
+  <!-- WORKの部分 -->
+    <section class="work">
+      <div class="inner work-inner">
+        <div class="pc-container"><img class="pc" src="./img/pc/pc.png" alt="パソコンのイメージ"></div>
+        <div class="text-content">
+          <h3 class="work-title">WORK</h3>
+          <p class="work-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint
+          </p>
+        </div>
+      </div>
+    </section>
+
+  <!-- WE ARE SKILLSの部分 -->
+    <section class="skills">
+      <div class="inner">
+        <h3 class="skills-title">WE ARE SKILLS</h3>
+        <ul class="skills-container">
+          <li>
+            <a href="#"><img src="./img/skills/skills_1.png" alt="スキルのイメージ1"></a>
+          </li>
+          <li>
+            <a href="#"><img src="./img/skills/skills_2.png" alt="スキルのイメージ2"></a>
+          </li>
+          <li>
+            <a href="#"><img src="./img/skills/skills_3.png" alt="スキルのイメージ3"></a>
+          </li>
+          <li>
+            <a href="#"><img src="./img/skills/skills_4.png" alt="スキルのイメージ4"></a>
+          </li>
+          <li>
+            <a href="#"><img src="./img/skills/skills_5.png" alt="スキルのイメージ5"></a>
+          </li>
+          <li>
+            <a href="#"><img src="./img/skills/skills_6.png" alt="スキルのイメージ6"></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  <!-- SELECT PLANの部分 -->
+    <section class="plan">
+      <div class="inner">
+        <h3 class="plan-title">SELECT PLAN</h3>
+        <table class="plan-table">
+        <!-- 一番上 -->
+          <thead>
+            <tr>
+              <th>PLAN</th>
+              <th>BASIC PLAN</th>
+              <th>STANDARD PLAN</th>
+              <th>ENTERPRISE PLAN</th>
+            </tr>
+          </thead>
+        <!-- 2列目 -->
+          <tbody>
+            <tr>
+              <th>PRICE</th>
+              <td>￥100,000</td>
+              <td>￥200,000</td>
+              <td>￥300,000</td>
+            </tr>
+        <!-- 3列目 -->
+            <tr>
+              <th>DELIVERY</th>
+              <td>Manuscript</td>
+              <td>HTML</td>
+              <td>Manuscript,HTML,PSD</td>
+            </tr>
+        <!-- 4列目 -->
+            <tr>
+              <th>ANALYSIS</th>
+              <td>〇</td>
+              <td>〇</td>
+              <td>〇</td>
+            </tr>
+        <!-- 5列目 -->
+            <tr>
+              <th>IMPROVEMENT</th>
+              <td>×</td>
+              <td>〇</td>
+              <td>〇</td>
+            </tr>
+        <!-- 6列目 -->
+            <tr>
+              <th>DESIGN</th>
+              <td>×</td>
+              <td>×</td>
+              <td>〇</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  <!-- SNSの部分 -->
+    <nav class="sns">
+      <ul class="inner sns-inner">
+        <a class="fab fa-facebook-f" href="#"></a>
+        <a class="fab fa-dribbble" href="#"></a>
+        <a class="fab fa-twitter" href="#"></a>
+        <a class="fa-solid fa-envelope" href="#"></a>
+      </ul>
+    </nav>
+      
+  </main>
+
+  <footer class="footer">
+    <div class="inner footer-inner">
+      <div class="footer-container">
+        <p class="copyright">Copyright(c)</p>
+      </div>
+    </div>
+  </footer>
+
 </body>
 
 </html>
