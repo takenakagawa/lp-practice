@@ -93,6 +93,11 @@ header ul {
   }
 }
 
+/* main */
+main {
+  padding-top: 30px;
+}
+
 /* トップの部分 */
 .keyvisual {
   background-image: url(../img/keyvisual/keyvisual.jpg);
@@ -110,7 +115,6 @@ header ul {
   .keyvisual {
     padding-top: 250px;
     padding-bottom: 250px;
-    background-position: center;
   }
 }
 /* SP */
@@ -409,11 +413,6 @@ header ul {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-}
-
-.fab:hover,.fa-solid:hover {
-  background-color: #fff;
-  transition: .5s;
 }
 
 
