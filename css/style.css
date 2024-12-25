@@ -95,7 +95,7 @@ header ul {
 
 /* main */
 main {
-  padding-top: 30px;
+  padding-top: 78px;
 }
 
 /* トップの部分 */
@@ -173,6 +173,7 @@ main {
 .work-inner {
   display: flex;
 }
+
 .pc-container {
   flex-basis: 40%;
   text-align: center;
@@ -187,14 +188,14 @@ main {
 }
 /* TAB */
 @media screen and (max-width: 1199px) {
-  .text-content {
-    display: inline-block;
+  .work-inner {
+    display: inline-block
   }
 }
 /* SP */
 @media screen and (max-width:767px) {
-  .text-content {
-    display: inline-block;
+  .work-inner {
+    display: inline-block
   }
 }
 
@@ -213,7 +214,7 @@ main {
 
 /* WE ARE SKILLSの部分 */
 .skills {
-  padding: 50px;
+  padding-top: 50px;
   padding-bottom: 70px;
 }
 .skills-title {
@@ -389,11 +390,16 @@ main {
   overflow: hidden;
   font-size: 40px;
   text-decoration: none;
+  transition: 0.5s;
 }
 .fab {
   padding-top: 25px;
   padding-bottom: 25px;
 }
+.sns-inner a:hover {
+  background-color: #fff;
+ }
+
 /* SP */
 @media screen and (max-width:767px) {
   .fab {
